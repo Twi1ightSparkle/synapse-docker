@@ -1,6 +1,6 @@
-# Synapse Docker
+# Synapse Podman
 
-Quickly spin up a Synapse + Postgres in Docker for testing.
+Quickly spin up a Synapse + Postgres in Podman for testing.
 
 **DO NOT USE IN PRODUCTION**
 
@@ -31,7 +31,7 @@ containers. Synapse/Postgres data is not deleted.
 
 Copy `config.example.env` to `config.env` and edit as needed.
 
-Install [yq](https://mikefarah.gitbook.io/yq/), docker, and docker-compose if you don't have them.
+Install [yq](https://mikefarah.gitbook.io/yq/), podman, and podman-compose if you don't have them.
 
 Run `./synapse-env-manager.sh setup` to generate the environment. This will also generate the needed config files.
 

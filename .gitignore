@@ -1,5 +1,8 @@
 config.env
 docker-compose.yaml
 elementConfig.json
+hookshotConfig.yaml
+hookshotRegistration.yaml
+installHookshot.sh
 postgres
 synapse
